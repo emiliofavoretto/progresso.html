@@ -33,15 +33,20 @@ h2 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    font-size: 40px;
 }
 
 .flex-item {
     width: 80px;
     height: 80px;
-    background-color: rgb(140, 199, 209);
+    background-color: rgb(131, 203, 214);
     border: 2px solid rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px;
+}
+
+.justify-center {
+    justify-content: center;
 }
