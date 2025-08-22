@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Federant&family=Playwrite+CA:wght@100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: "Federant", serif;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
+   margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: black;
+}
+
+.flex-container {
+    width: 90%;
+    height: 200px;
+    background-color: rgb(55, 224, 154);
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-item {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(140, 199, 209);
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
