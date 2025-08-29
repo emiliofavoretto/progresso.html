@@ -1,0 +1,15 @@
+
+*{
+    background-color: rgb(226, 214, 188);
+}
+
+.flex-container {
+    width: 50%;
+    height: 200px;
+    background-color: rgb(55, 224, 154);
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 40px;
+}
