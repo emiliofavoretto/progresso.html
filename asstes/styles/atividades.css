@@ -35,6 +35,30 @@
 }
 
 .roxo {
-    background-color: rgb(176, 5, 255);
+    background-color: rgb(174, 0, 255);
 }
 
+.semaforo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    gap: 30px;
+}
+
+.sinal {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.vermelho {
+    background-color: #db0e0e;
+}
+.amarelo {
+    background-color: #f8cf16;
+}
+.verde {
+    background-color: #38db17;
+}
