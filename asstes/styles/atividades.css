@@ -1,15 +1,40 @@
 
 *{
     background-color: rgb(226, 214, 188);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.flex-container {
+.retangulo {
     width: 50%;
     height: 200px;
-    background-color: rgb(55, 224, 154);
-    margin: 0 auto 20px;
+    background-color: aqua;
+    margin: 0 auto 40px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-size: 40px;
+    margin-top: 60px;
 }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 20px;
+}
+
+.quadrado {
+    width: 150px;
+    height: 150px;
+}
+
+.verde {
+    background-color: #9fff06;
+}
+
+.roxo {
+    background-color: rgb(176, 5, 255);
+}
+
