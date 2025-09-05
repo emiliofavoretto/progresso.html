@@ -62,3 +62,30 @@
 .verde {
     background-color: #38db17;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    gap: 20px;
+}
+
+.circulo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.vermelho {
+    background-color: #db0e0e;
+}
+
+.amarelo {
+    background-color: #face0b;
+}
+
+.verde {
+    background-color: #38db17;
+}
