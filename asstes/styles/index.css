@@ -70,3 +70,19 @@ h2 {
     justify-content: space-around;
 }
 
+.navegacao {  
+    color: rgb(55, 224, 154);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin: 20px;
+    border: 2px solid rgb(55, 224, 154);
+    border-radius: 25px;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+.navegacao:hover {
+    border-radius: 50%
+ }
+

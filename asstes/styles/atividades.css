@@ -101,12 +101,15 @@
 
 .vermelho {
     background-color: #db0e0e;
+    box-shadow: 0 0 20px #f00;
 }
 
 .amarelo {
-    background-color: #face0b;
+    background-color: #ffd103;
+    box-shadow: 0 0 20px rgb(255, 255, 0);
 }
 
 .verde {
     background-color: #38db17;
+    box-shadow: 0 0 20px rgb(54, 255, 4);
 }
